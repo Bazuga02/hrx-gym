@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness Classes</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Oswald&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+    }
+
+    #fitness-classes {
+      max-width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      background: radial-gradient(circle at 10% 20%,
+          rgb(10, 174, 227) 0%,
+          rgb(124, 182, 255) 100.2%);
+    }
+
+    h1 {
+      color: white;
+      text-shadow: #333 2px 2px;
+      text-align: center;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      word-spacing: 5px;
+      font-size: 6vh;
+    }
+
+    .fitness-class {
+      margin: 20px 0;
+      padding: 20px;
+      background-color: #f0f8ff;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: black;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      height: 30vh;
+    }
+
+    h2 {
+      color: lightskyblue;
+      text-shadow: black 2px 2px;
+      word-spacing: 2px;
+      font-family: "Permanent Marker", cursive;
+    }
+
+    p {
+      color: #333;
+      text-align: center;
+      font-family: "Courier New", Courier, monospace;
+      font-weight: 700;
+      color: white;
+      font-size: 2.3vh;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .col {
+      width: calc(33.33% - 20px);
+    }
+
+    .fit {
+      display: flex;
+      align-items: center;
+      gap: 22%;
+    }
+
+    .fit>img {
+      border-radius: 50%;
+      height: 25vh;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="fitness-classes">
+    <div class="fit">
+      <img src="/img/hrx-gym-logo-lightskyblue-and-white-background-wi-upscaled.png" />
+      <h1>Fitness Classes</h1>
+    </div>
+    <p>
+      Explore our diverse range of fitness classes to find the perfect fit for
+      your fitness journey.
+    </p>
+
+    <div class="row">
+      <div class="col">
+        <div class="fitness-class">
+          <img src="img/HIIT.jpg" alt="High-Intensity Interval Training (HIIT)" />
+          <h2>High-Intensity Interval Training (HIIT)</h2>
+          <p>
+            HIIT is a dynamic and challenging workout that combines short
+            bursts of intense exercise with short recovery periods. It's a
+            great way to boost your metabolism and burn calories.
+          </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="fitness-class">
+          <img src="img/yoga class.jpg" alt="Yoga and Mindfulness Classes" />
+          <h2>Yoga and Mindfulness Classes</h2>
+          <p>
+            Join our yoga and mindfulness classes to find inner peace, improve
+            flexibility, and reduce stress. It's a holistic approach to
+            fitness and well-being.
+          </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="fitness-class">
+          <img src="img/treadmill.jpg " alt="Cardio Workouts" />
+          <h2>Cardio Workouts</h2>
+          <p>
+            Cardio workouts are perfect for improving cardiovascular health
+            and endurance. Get your heart rate up with fun and energetic
+            exercises.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="fitness-class">
+          <img src="img/strength.jpg" alt="Strength and Conditioning" />
+          <h2>Strength and Conditioning</h2>
+          <p>
+            Our strength and conditioning classes focus on building muscle and
+            increasing overall strength. It's suitable for all fitness levels.
+          </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="fitness-class">
+          <img src="img/zumba.jpg" alt="Zumba and Dance Fitness" />
+          <h2>Zumba and Dance Fitness</h2>
+          <p>
+            Join the dance party with our Zumba and Dance Fitness classes.
+            It's a fun way to burn calories and improve coordination.
+          </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="fitness-class">
+          <img src="img/bootcamp.jpg" alt="Bootcamp Training" />
+          <h2>Bootcamp Training</h2>
+          <p>
+            Bootcamp training is an intense full-body workout that combines
+            strength, endurance, and agility training. It's a great way to
+            challenge yourself and see results.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

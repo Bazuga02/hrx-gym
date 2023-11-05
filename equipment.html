@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: black
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            /* background-color: black; */
+            /* background: url("img/back.jpg"); */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-size: contain;
+            background-position: center;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            padding: 2%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            font-size: 7vh;
+            /* text-shadow: 1.5px 1.5px white; */
+            background-color: black;
+            margin: 1%;
+            border-radius: 15%;
+            text-decoration: underline dashed 5px lightskyblue;
+
+        }
+
+        .wrapper {
+            height: 70%;
+            width: 75%;
+            /* background-color: aqua; */
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #left {
+            background-color: white;
+            width: 50%;
+            height: 100%;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5%;
+            padding: 1%;
+            border: 5px dashed black;
+            border-right: none;
+        }
+
+        #right {
+            background: radial-gradient(circle at 10% 20%,
+                    rgb(10, 174, 227) 0%,
+                    rgb(124, 182, 255) 100.2%);
+            width: 50%;
+            height: 100%;
+            color: black;
+            border: 5px dashed black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5%;
+            padding: 1%;
+        }
+
+        #left>h3 {
+            font-size: 5vh;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+
+        #left>img {
+            height: 40%;
+            width: 60%;
+            border-radius: 2vh;
+        }
+
+        #left>p {
+            font-size: larger;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            word-spacing: 5px;
+        }
+
+        #right>h3 {
+            font-size: 5vh;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+
+        #right>img {
+            height: 40%;
+            width: 60%;
+            border-radius: 2vh;
+        }
+
+        #right>p {
+            font-size: larger;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            font-weight: bold;
+            word-spacing: 5px;
+        }
+
+        .first {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .first>img {
+            height: 20vh;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="first">
+            <img src="/img/giphy (2).gif" alt="">
+            <h1> <span style="color: lightskyblue; font-family: 'Courier New', Courier, monospace  ;   ">HRX</span>
+                EQUIPMENT & FACILITIES</h1>
+            <img src="/img/giphy.gif" alt="">
+        </div>
+        <div class="wrapper">
+            <div id="left">
+                <h3>HRX Smart Treadmills</h3>
+                <img src="img/smart treadmill.jpg" alt="">
+                <p> Our smart treadmills feature interactive touchscreens and built-in workout programs that adjust to
+                    your
+                    fitness level. They monitor your heart rate, track your progress, and even simulate outdoor running
+                    experiences.</p>
+            </div>
+            <div id="right">
+                <h3>VR Spin Bikes</h3>
+                <img src="img/vr.jpg" alt="">
+                <p> Experience cycling like never before with our VR spin bikes. Immerse yourself in virtual landscapes
+                    while
+                    burning calories and competing with others in real-time classes..</p>
+            </div>
+            <div id="left">
+                <h3>HRX Smart Weights</h3>
+                <img src="img/smartweight.png" alt="">
+                <p> Say goodbye to traditional dumbbells. Our smart weights are adjustable with just a push of a button.
+                    They also
+                    provide real-time feedback on your form and progress.</p>
+            </div>
+            <div id="right">
+                <h3>VR Rowing Machines</h3>
+                <img src="img/vrrow.jpg" alt="">
+                <p> Row your way to fitness with our VR rowing machines. Enjoy realistic rowing experiences with
+                    stunning visuals
+                    and competitive challenges.</p>
+            </div>
+            <div id="left">
+                <h3>Cable Machines</h3>
+                <img src="img/cable.jpg" alt="">
+                <p> High-quality cable machines for a variety of exercises, ensuring a well-rounded strength training
+                    experience.
+                </p>
+            </div>
+            <div id="right">
+                <h3>VR Training Area</h3>
+                <img src="img/tarea.png" alt="">
+                <p> Immerse yourself in a virtual training environment for functional workouts that make fitness fun and
+                    challenging.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
